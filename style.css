@@ -1,0 +1,277 @@
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-display: swap;
+}
+
+body {
+    background-image: url("images/wall.jpg");
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  font-family: 'SUIT-Regular', Pretendard;
+
+}
+p{
+    margin-left: 40px;
+    font-size: 16px;
+}
+h1{
+    text-align: center;
+    background-color: #30353D;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+/*   z-index: 1;
+    padding: 15px;*/ 
+}
+h3{
+    margin-left: 40px;
+}
+p{
+    line-height: 1.8;
+}
+.text{
+    position: absolute;
+  right: 90px;
+  top: 420px;
+  font-size: 20px;
+}
+.text2 {
+    position: absolute;
+  right: 90px;
+  top: 1020px;
+  font-size: 13px;
+}
+.text3{
+    position: absolute;
+  right: 90px;
+  top: 1020px;
+  font-size: 13px;
+}
+.text4{
+    position: absolute;
+  left: 50px;
+  top: 820px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.main{
+   text-align: center;
+   top:0px;
+   width: 100%;
+   height: 100%;
+}
+.one {
+    width: 130px;
+    position: absolute;
+    top: 140px;
+    right: 500px;
+}
+.two {
+    width: 65px;
+    position: absolute;
+    top: 180px;
+    right: 325px;
+}
+.three {
+    width: 180px;
+    position: absolute;
+    top: 245px;
+    left: 54px;
+}
+.four {
+    width: 200px;
+    position: absolute;
+    top: 562px;
+    left: 405px;
+}
+.five {
+    width: 300px;
+    position: absolute;
+    top: 640px;
+    right: 200px;
+}
+.six {
+    width: 65px;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+}
+.circle {
+    top:50;
+    width: 500px;
+}
+.circle1{
+    width: 200px;
+}
+.circle2{
+    width: 300px;
+}
+.circle3{
+    width: 100px;
+}
+.circle4{
+    width: 350px;
+}
+.circle5{
+    width: 250px;
+}
+.circle7{
+    width: 400px;
+}
+.circle8{
+    width: 700px;
+}
+.circle9{
+    width: 650px;
+}
+.square1{
+    top: 100px;
+    width: 300px;
+}
+.square2{
+    width:200px;
+}
+.square3{
+    width:160px;
+}
+.square4{
+    width:400px;
+}
+.square5{
+    width:340px;
+}
+.square6{
+    width:140px;
+}
+
+.square7{
+    width:170px;
+}
+.square8{
+    width:500px;
+}
+.curve{
+    width: 500px;
+}
+.curve1{
+    width: 500px;
+}
+.curve2{
+    width: 500px;
+}
+.curve3{
+    width: 100%;
+    margin: 0;
+    display: block;
+    vertical-align: bottom;
+}
+div.container {
+    line-height: 0;
+    /* font-size: 0; */ /* 또는 */
+}
+
+.curve4{
+    width: 800px;
+}
+.curve5{
+    width: 500px;
+}
+.curve6{
+    width: 500px;
+}
+.curve7{
+    width: 500px;
+}
+.line1{
+    width: 600px;
+}
+.line3{
+    width: 600px;
+}
+.line4{
+    width: 600px;
+}
+.line5{
+    width: 600px;
+}
+.line6{
+    width: 600px;
+}
+.line7{
+    width: 600px;}
+.line8{
+    width: 600px;
+}
+.line9{
+    width: 600px;
+}
+.pattern1{
+    width: 600px;
+}
+.pattern2{
+    width: 600px;
+}
+.pattern3{
+    width: 600px;
+}
+.pattern4{
+    width: 600px;
+}
+.pattern5{
+    width: 600px;
+}
+.pattern6{
+    width: 600px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    text-decoration-thickness: 1px;
+}
+a:hover {
+    color: #BAB9A4;
+}
+@media screen and (max-width: 900px) {
+    section{
+        width: 100%;
+        height: 33.3%;
+    }
+  .one{
+    right: 10px;
+    margin: 0;
+    width: 100px;
+
+  }
+  .two{
+    width: 50px;
+  }
+    .three{
+    left: 0;
+    top: 383px;
+  }
+  .four{
+    left: 200px;
+    top: 383px;
+  }
+  .five{
+    width: 80px;
+    top: 100px;
+    left: 300px;
+  }
+  .six{
+    left: 200px;
+  }
+
+   {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+}
+
+}
+
